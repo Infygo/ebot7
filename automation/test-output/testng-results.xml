@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="36434" started-at="2020-11-22T09:27:40 MEZ" finished-at="2020-11-22T09:28:17 MEZ">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="36434" started-at="2020-11-22T09:27:40 MEZ" finished-at="2020-11-22T09:28:17 MEZ">
+      <class name="ebot.automation.AddMoreThan10QuotesTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:ebot.automation.AddMoreThan10QuotesTest@2d2ffcb7]" name="setUp" is-config="true" duration-ms="3284" started-at="2020-11-22T09:28:07 MEZ" finished-at="2020-11-22T09:28:10 MEZ">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="AddMoreThanTenQuotesTest()[pri:0, instance:ebot.automation.AddMoreThan10QuotesTest@2d2ffcb7]" name="AddMoreThanTenQuotesTest" duration-ms="5517" started-at="2020-11-22T09:28:10 MEZ" finished-at="2020-11-22T09:28:16 MEZ">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Checking if more than 10 quotes can be added to an author expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Checking if more than 10 quotes can be added to an author expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at ebot.automation.AddMoreThan10QuotesTest.AddMoreThanTenQuotesTest(AddMoreThan10QuotesTest.java:48)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddMoreThanTenQuotesTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ebot.automation.AddMoreThan10QuotesTest@2d2ffcb7]" name="tearDown" is-config="true" duration-ms="625" started-at="2020-11-22T09:28:16 MEZ" finished-at="2020-11-22T09:28:17 MEZ">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ebot.automation.AddMoreThan10QuotesTest -->
+      <class name="ebot.automation.AddDuplicateQuoteTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:ebot.automation.AddDuplicateQuoteTest@68e5eea7]" name="setUp" is-config="true" duration-ms="4385" started-at="2020-11-22T09:27:40 MEZ" finished-at="2020-11-22T09:27:45 MEZ">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addDuplicateQuote()[pri:0, instance:ebot.automation.AddDuplicateQuoteTest@68e5eea7]" name="addDuplicateQuote" duration-ms="2547" started-at="2020-11-22T09:27:45 MEZ" finished-at="2020-11-22T09:27:47 MEZ">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addDuplicateQuote -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ebot.automation.AddDuplicateQuoteTest@68e5eea7]" name="tearDown" is-config="true" duration-ms="618" started-at="2020-11-22T09:27:47 MEZ" finished-at="2020-11-22T09:27:48 MEZ">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ebot.automation.AddDuplicateQuoteTest -->
+      <class name="ebot.automation.AddGideonQuotesTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:ebot.automation.AddGideonQuotesTest@291b4bf5]" name="setUp" is-config="true" duration-ms="3281" started-at="2020-11-22T09:27:48 MEZ" finished-at="2020-11-22T09:27:51 MEZ">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addGideonQuotes()[pri:0, instance:ebot.automation.AddGideonQuotesTest@291b4bf5]" name="addGideonQuotes" duration-ms="15472" started-at="2020-11-22T09:27:51 MEZ" finished-at="2020-11-22T09:28:07 MEZ">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addGideonQuotes -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ebot.automation.AddGideonQuotesTest@291b4bf5]" name="tearDown" is-config="true" duration-ms="651" started-at="2020-11-22T09:28:07 MEZ" finished-at="2020-11-22T09:28:07 MEZ">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ebot.automation.AddGideonQuotesTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
