@@ -1,0 +1,4 @@
+13:11:47.601 [main] DEBUG ebot.automation.AddGideonQuotesTest - Navigating to the Sandbox site to push the quotes into the server
+13:11:48.523 [main] DEBUG ebot.automation.AddGideonQuotesTest - Looping until all Gideon quotes are added
+13:11:53.956 [main] INFO  ebot.automation.AddMoreThan10QuotesTest - Automating trying to add more than 10 quotes for an author
+13:11:55.371 [main] INFO  ebot.automation.AddMoreThan10QuotesTest - Trying to add 11th quote for an author having 10 quotes already
